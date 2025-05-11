@@ -1,0 +1,108 @@
+[
+  {
+    "id": "spotify",
+    "name": "Spotify",
+    "type": "musique",
+    "prices": [
+      {
+        "price": 11.12
+      },
+      {
+        "price": 15.17
+      },
+      {
+        "price": 18.21
+      },
+      {
+        "price": 6.06
+      }
+    ]
+  },
+  {
+    "id": "deezer",
+    "name": "Deezer",
+    "type": "musique",
+    "prices": [
+      {
+        "price": 11.99
+      },
+      {
+        "price": 15.99
+      },
+      {
+        "price": 19.99
+      },
+      {
+        "price": 5.99
+      }
+    ]
+  },
+  {
+    "id": "apple_music",
+    "name": "Apple Music",
+    "type": "musique",
+    "prices": [
+      {
+        "price": 10.99
+      },
+      {
+        "price": 16.99
+      },
+      {
+        "price": 5.99
+      }
+    ]
+  },
+  {
+    "id": "youtube_music",
+    "name": "YouTube Music",
+    "type": "musique",
+    "prices": [
+      {
+        "price": 10.99
+      },
+      {
+        "price": 16.99
+      },
+      {
+        "price": 5.49
+      }
+    ]
+  },
+  {
+    "id": "amazon_music",
+    "name": "Amazon Music",
+    "type": "musique",
+    "prices": [
+      {
+        "price": 10.99
+      },
+      {
+        "price": 17.99
+      }
+    ]
+  },
+  {
+    "id": "napster",
+    "name": "Napster",
+    "type": "musique",
+    "prices": [
+      {
+        "price": 9.95
+      }
+    ]
+  },
+  {
+    "id": "soundcloud_go",
+    "name": "SoundCloud Go",
+    "type": "musique",
+    "prices": [
+      {
+        "price": 5.99
+      },
+      {
+        "price": 9.99
+      }
+    ]
+  }
+]

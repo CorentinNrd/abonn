@@ -1,0 +1,122 @@
+[
+  {
+    "id": "netflix",
+    "name": "Netflix",
+    "type": "streaming",
+    "prices": [
+      {
+        "price": 7.99
+      },
+      {
+        "price": 14.99
+      },
+      {
+        "price": 21.99
+      }
+    ]
+  },
+  {
+    "id": "disney_plus",
+    "name": "Disney+",
+    "type": "streaming",
+    "prices": [
+      {
+        "price": 5.99
+      },
+      {
+        "price": 9.99
+      },
+      {
+        "price": 13.99
+      }
+    ]
+  },
+  {
+    "id": "prime_video",
+    "name": "Amazon Prime Video",
+    "type": "streaming",
+    "prices": [
+      {
+        "price": 6.99
+      },
+      {
+        "price": 8.98
+      }
+    ]
+  },
+  {
+    "id": "apple_tv",
+    "name": "Apple TV",
+    "type": "streaming",
+    "prices": [
+      {
+        "price": 9.99
+      }
+    ]
+  },
+  {
+    "id": "paramount_plus",
+    "name": "Paramount+",
+    "type": "streaming",
+    "prices": [
+      {
+        "price": 7.99
+      }
+    ]
+  },
+  {
+    "id": "max",
+    "name": "Max",
+    "type": "streaming",
+    "prices": [
+      {
+        "price": 5.99
+      },
+      {
+        "price": 9.99
+      },
+      {
+        "price": 13.99
+      }
+    ]
+  },
+  {
+    "id": "oc",
+    "name": "OCS",
+    "type": "streaming",
+    "prices": [
+      {
+        "price": 10.99
+      }
+    ]
+  },
+  {
+    "id": "youtube_premium",
+    "name": "YouTube Premium",
+    "type": "streaming",
+    "prices": [
+      {
+        "price": 12.99
+      }
+    ]
+  },
+  {
+    "id": "canal_plus",
+    "name": "Canal+",
+    "type": "streaming",
+    "prices": [
+      {
+        "price": 24.99
+      },
+      {
+        "price": 41.99
+      },
+      {
+        "price": 47.99
+      },
+      {
+        "price": 81.99
+      }
+    ]
+  }
+]

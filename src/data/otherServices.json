@@ -1,0 +1,77 @@
+[
+  {
+    "id": "loyer",
+    "name": "Loyer",
+    "type": "autre"
+  },
+  {
+    "id": "impots",
+    "name": "Impôts",
+    "type": "autre"
+  },
+  {
+    "id": "assurance_voiture",
+    "name": "Assurance voiture",
+    "type": "autre"
+  },
+  {
+    "id": "assurance_moto",
+    "name": "Assurance moto",
+    "type": "autre"
+  },
+  {
+    "id": "assurance_habitation",
+    "name": "Assurance habitation",
+    "type": "autre"
+  },
+  {
+    "id": "assurance_responsabilite_civile",
+    "name": "Assurance responsabilité civile",
+    "type": "autre"
+  },
+  {
+    "id": "assurance_animaux",
+    "name": "Assurance animaux",
+    "type": "autre"
+  },
+  {
+    "id": "mutuelle",
+    "name": "Mutuelle",
+    "type": "autre"
+  },
+  {
+    "id": "internet",
+    "name": "Internet",
+    "type": "autre"
+  },
+  {
+    "id": "telephone",
+    "name": "Téléphone",
+    "type": "autre"
+  },
+  {
+    "id": "electricite",
+    "name": "Électricité",
+    "type": "autre"
+  },
+  {
+    "id": "gaz",
+    "name": "Gaz",
+    "type": "autre"
+  },
+  {
+    "id": "eau",
+    "name": "Eau",
+    "type": "autre"
+  },
+  {
+    "id": "transports",
+    "name": "Transports (Navigo...)",
+    "type": "autre"
+  },
+  {
+    "id": "sncf",
+    "name": "SNCF",
+    "type": "autre"
+  }
+]
