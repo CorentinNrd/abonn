@@ -1,6 +1,9 @@
 <template>
   <main>
-    <h1>Abonnme</h1>
+    <div class="header-logo">
+      <img src="./assets/logo.png" alt="Logo Abonnme" class="logo"/>
+      <h1>Abonnme</h1>
+    </div>
     <section class="my-services-section">
       <div v-if="isMobile">
         <button class="btn bg-yellow" style="margin-right: 5px" @click="openAddModal">Ajouter</button>
@@ -110,7 +113,7 @@ const addTo = (itemToAdd) => {
   const serviceToStore = {
     id: itemToAdd.item.id,
     name: itemToAdd.item.name,
-    type: itemToAdd.item.type,
+    type: itemToAdd.item?.type,
   };
   if (storedNewServices) {
     const parsedServices = JSON.parse(storedNewServices);
@@ -183,6 +186,17 @@ onMounted(() => {
 main {
   width: 100%;
   padding: 20px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 100%;
+  max-width: 100px;
 }
 
 .streaming-section, .music-section, .my-services-section, .other-section {
