@@ -1,6 +1,7 @@
 <template>
   <div>
     <h3>{{ service?.name || service?.item.name }}</h3>
+    <p v-if="myServices">{{ service.price }}€</p>
   </div>
 </template>
 
@@ -17,6 +18,11 @@ defineProps({
       type: '',
       price: [],
     }),
+  },
+  myServices: {
+    type: Boolean,
+    required: false,
+    default: false,
   },
 })
 </script>

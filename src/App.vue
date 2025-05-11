@@ -14,8 +14,8 @@
         </div>
       </div>
       <div v-if="myServices.length > 0" class="flex">
-        <MyServicesCard class="bg-green" v-for="(item, key) in myServices" :key="key" :service="item"
-                        @click="removeFromSelection(key)"/>
+        <CardService class="bg-green" v-for="(item, key) in myServices" :key="key" :service="item" :my-services="true"
+                     @click="removeFromSelection(key)"/>
       </div>
       <div v-else>
         <p>Aucun abonnement sélectionné pour le moment</p>
@@ -68,7 +68,6 @@ import STREAMINGSERVICES from './data/streamingServices.json';
 import MUSIQUESERVICES from './data/musiqueServices.json';
 import OTHERSERVICES from './data/otherServices.json';
 import CardService from "./components/cardService.vue";
-import MyServicesCard from "./components/myServicesCard.vue";
 import ModalPrice from "./components/modalPrice.vue";
 import ModalAdd from "./components/modalAdd.vue";
 
