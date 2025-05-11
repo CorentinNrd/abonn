@@ -144,6 +144,7 @@ input:focus {
     align-items: center;
     font-weight: bold;
     font-size: 1.5em;
+    color: #fff;
 }
 
 .btn-close:hover {
