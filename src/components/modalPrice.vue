@@ -12,7 +12,7 @@
           </li>
         </ul>
         <div class="add-price-section" v-else>
-          <input type="tel" placeholder="40€" v-model="priceToAdd.price"/>
+          <input type="text" placeholder="40€" v-model="priceToAdd.price"/>
           <button class="btn bg-green" :disabled="!priceToAdd.price" @click="addTo">OK</button>
         </div>
       </section>

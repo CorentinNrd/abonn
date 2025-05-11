@@ -147,5 +147,9 @@ input:focus {
 }
 
 .btn-close:hover {
-    color: #F87171;
+    color: #000;
+}
+
+.btn-close:focus {
+    color: #000;
 }

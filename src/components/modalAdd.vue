@@ -6,7 +6,7 @@
       </section>
       <section class="modal-body">
         <input class="mb-5" type="tel" placeholder="Ex: Navigo" v-model="service.item.name"/>
-        <input type="tel" placeholder="40€" v-model="service.price"/>
+        <input type="text" placeholder="40€" v-model="service.price"/>
       </section>
       <button class="btn_no-radius-top bg-green" :disabled="!service.item.name || !service.price" @click="addTo">OK</button>
     </div>
